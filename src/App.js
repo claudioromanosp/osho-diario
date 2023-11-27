@@ -1,15 +1,10 @@
 import  React, { useState } from "react";
-import Button from "./component/Button";
+import Phrases from "./components/Phrases";
 
 function App() {
-
-  function testando(){
-    return (console.log('teste de componente'))
-  }
-
   return (
     <div className="App">
-      <Button onClick={testando} label="Novo Ensinamento" />
+      <Phrases />
     </div>
   );
 }
