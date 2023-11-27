@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-function Button({onClick, label }){
+function Button({onClick, label, className }){
 
     return (
-      <button onClick={onClick}>
+      <button onClick={onClick} className={className}>
         {label}
       </button>
     );

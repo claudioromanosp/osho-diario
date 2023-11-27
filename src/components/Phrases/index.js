@@ -13,12 +13,15 @@ function Phrases() {
             setState(json.data[random].phrase);
         })
     };
-
-    return (  
-        <div>
-            <p>{state}</p>
-            <Button onClick={changePhrase} label='Novo Ensinamento' />
-        </div>
+    return (
+      <div>
+        <p>{state}</p>
+        <Button
+            onClick={changePhrase}
+            label="Novo Ensinamento"
+            className="btn btn-medium btn-change"
+        />
+      </div>
     );
 }
 
