@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Aoboshi+One');
 body {
   margin: 0;
-  font-family:  'Kanit',
+  font-family:  'Aoboshi One',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -55,7 +56,7 @@ button{
 
 @media(min-width: 991px){
     .items{
-      margin-top: 200px;
+      margin-top: 180px;
       margin-left: 0;
       max-width: 800px;
   }
@@ -80,7 +81,7 @@ button{
 
 @media(min-width: 1600px){
   p{
-    font-size: 34px;
+    font-size: 38px;
   }
 }
 
