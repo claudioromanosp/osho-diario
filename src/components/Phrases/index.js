@@ -14,13 +14,15 @@ function Phrases() {
         })
     };
     return (
-      <div>
-        <p>{state}</p>
-        <Button
-            onClick={changePhrase}
-            label="Novo Ensinamento"
-            className="btn btn-medium btn-change"
-        />
+      <div className="container">
+        <div className="items">
+          <p>"{state}"</p>
+          <Button
+              onClick={changePhrase}
+              label="Novo Ensinamento"
+              className="btn btn-medium btn-change"
+          />
+        </div>
       </div>
     );
 }
