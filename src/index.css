@@ -51,6 +51,7 @@ button{
   margin-left: -120px;
   border-radius: 12px;
   padding: 15px 25px;
+  text-shadow: 1px 1px 0px #000;
   background-color: #00c1cc;
 }
 
@@ -82,6 +83,10 @@ button{
     text-align: left;
     font-size: 30px;
     border-left: 6px solid #00c1cc;
+  }
+  button{
+    bottom: 110px;
+    font-size: 20px;
   }
 }
 
