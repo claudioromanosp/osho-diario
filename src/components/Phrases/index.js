@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Button from "../Button";
 
 function Phrases() {
-    const [state, setState] = useState('Sou Osho, seja bem-vindo aos meus ensinamentos!');
-    const [label, setLabel] = useState("Iniciar");
+    const [state, setState] = useState("Sou Osho, te convido a entrar na minha mente.");
+    const [label, setLabel] = useState("Entre");
   
     function changePhrase(){
         setLabel("Novo Ensinamento");
