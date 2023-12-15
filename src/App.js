@@ -1,4 +1,4 @@
-import  React, { useState } from "react";
+import  React from "react";
 import Phrases from "./components/Phrases";
 
 function App() {
